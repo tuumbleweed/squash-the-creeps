@@ -1,0 +1,14 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+.vscode/
+
+# Added by squash the creep starter
+.import
+logs/
+
+# tmp dir
+tmp/*
+
+# Make sure all readme files are tracked, even in tmp
+!README.md
