@@ -98,6 +98,6 @@ shape = SubResource("CylinderShape3D_onrkg")
 libraries = {
 &"": SubResource("AnimationLibrary_i3pqv")
 }
-autoplay = "float"
+autoplay = "My Library/float"
 
 [connection signal="body_entered" from="MobDetector" to="." method="_on_mob_detector_body_entered"]
